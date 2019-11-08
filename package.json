@@ -1,6 +1,6 @@
 {
   "name": "gameoflife",
-  "homepage": "https://MrEasyE.github.io/gameoflife",
+  "homepage": "https://mreasye.github.io/gameoflife",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -r https://github.com/MrEasyE/gameoflife"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,5 +31,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrEasyE/gameoflife.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrEasyE/gameoflife/issues"
   }
 }
