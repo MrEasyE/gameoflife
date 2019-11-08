@@ -15,7 +15,7 @@ class Board extends Component {
     componentDidMount(){
         setInterval(() => {
             this.keepAlive();
-        }, 1000)
+        }, 250)
     }
 
     state = {} // initial state

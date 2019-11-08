@@ -1,22 +1,40 @@
 body, .App {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(lightblue, lightgreen);
+  background-image: linear-gradient(#36384C, #849974);
+  background-attachment: fixed;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  color: #e3bab3;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #3a5857;
+}
+
+a:visited {
+  color: #36384C
 }
 
 .Board {
   display: flex;
-  background-image: linear-gradient(to bottom right, lightyellow, lightpink);
+  /* background-image: linear-gradient(to bottom right, lightyellow, lightpink); */
   flex-wrap: wrap;
   width: 500px;
   height: 500px;
 }
 
 .Box {
-  background-color: pink;
+  /* background-color: pink; */
   width: 10px;
   height: 10px;
   color: white;
@@ -24,9 +42,16 @@ body, .App {
 }
 
 .true {
-  background-color: lightgreen;
+  background-color: #e3bab3
 }
 
-.false {
+/* .false {
   background-color: lightpink;
+} */
+
+.Footer {
+  
+  height: 20px;
+  padding: 20px;
+  margin: 20px;
 }
